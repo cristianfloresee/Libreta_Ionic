@@ -120,6 +120,8 @@ ionViewDidEnter()
 Se ejecuta cuando la página ha entrado completamente y ahora es la página activa. 
 Este evento se disparará, ya sea la primera carga o al cargar la página en caché. 
 Es la función final que se activa al navegar en una página como parte del ciclo de vida de ella. Acá ya puedes poner toda la lógica que desees aunque se utiliza fundamentalmente para alguna característica que necesitas que el usuario vea muy pronto o la primera cosa que desees que el usuario interactúe cuando entre a la página.
+
+Lo use para bloquear el slide del slider cuando hay solo un elemento. Con este evento me asegure que se halla renderizado el slider.
 Retorna: void
 
 @IonicPage()
